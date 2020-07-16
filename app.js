@@ -87,11 +87,7 @@ guessBtn.addEventListener('click', function () {
             setMessage(`${guess} is not Correct , ${guessesLeft} guesses left `, 'red');
 
         }
-
     }
-
-
-
 });
 
 guessInput.addEventListener('keypress', (e) => {
